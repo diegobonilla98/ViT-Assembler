@@ -12,6 +12,8 @@ The methodology involves dividing images into patches, permuting those patches, 
 
 4. **Training Objective**: The objective function is the cross-entropy loss between the predicted positions and the true original positions of the patches. By minimizing this loss, the model learns the spatial dependencies between image patches, which results in robust and transferable feature representations.
 
+![Model Overview](assets/model_overview.png)
+
 ### Why Does This Work?
 The task of solving a jigsaw puzzle forces the model to understand both local patch content and their spatial relationships across the entire image. This is similar in spirit to denoising or masked token prediction, where the model must reconstruct occluded parts of the input by leveraging context. By learning how to rearrange shuffled patches, the model captures meaningful high-level semantic information, which is transferable to a wide range of downstream visual tasks. 
 
@@ -33,7 +35,6 @@ This work is inspired by prior efforts in self-supervised learning that involve 
   - `mlp_dim = 1536`
   - `channels = 3`
   - `dim_head = 32`
-  - `device = "cuda"`
 
   The base ViT implementation is based on the work by Lucidrains: https://github.com/lucidrains/vit-pytorch/blob/main/vit_pytorch/simple_vit.py
 
