@@ -39,7 +39,7 @@ This work is inspired by prior efforts in self-supervised learning that involve 
   The base ViT implementation is based on the work by Lucidrains: https://github.com/lucidrains/vit-pytorch/blob/main/vit_pytorch/simple_vit.py
 
 ### Training Loss
-Below is the training loss plot for the jigsaw puzzle task over 50 epochs:
+Below is the training loss plot for the jigsaw puzzle task over 50 epochs over the entire COCO dataset (no labels):
 
 ![Training Loss](assets/training_loss.png)
 
