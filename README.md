@@ -77,3 +77,11 @@ Unfortunately, at this time, I lack the necessary tools to evaluate exhaustively
 ### Contributions
 Contributions are welcome. Please open an issue or submit a pull request if you have any suggestions for improvements.
 
+```
+@misc{bonilla2025vitassembler,
+  title  = {ViT Assembler: A simple pretraining task for vision model pretrainings},
+  author = {Bonilla Salvador, Diego},
+  year   = {2025},
+  url    = {https://github.com/diegobonilla98/ViT-Assembler}
+}
+```
